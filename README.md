@@ -1,1 +1,9 @@
-# storybooks-without-vuecli
+### Installation
+
+```
+$ yarn
+```
+
+```
+$ yarn start
+```

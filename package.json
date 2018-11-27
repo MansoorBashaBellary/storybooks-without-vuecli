@@ -1,0 +1,30 @@
+{
+  "name": "vue-cli-storybooks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mansoor Basha Bellary <mbellary@chewy.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "start-storybook -p 6006 -c .storybook -s ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MansoorBashaBellary/storybooks-without-vuecli.git"
+  },
+  "dependencies": {
+    "vue": "^2.4.4"
+  },
+  "devDependencies": {
+    "@storybook/addon-options": "4.1.0-alpha.8",
+    "@storybook/addon-viewport": "4.1.0-alpha.8",
+    "@storybook/addons": "4.1.0-alpha.8",
+    "@storybook/components": "4.1.0-alpha.8",
+    "@storybook/ui": "4.1.0-alpha.8",
+    "@storybook/vue": "4.1.0-alpha.8",
+    "@babel/core": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "babel-preset-vue": "^2.0.2",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.13"
+  }
+}
